@@ -1,0 +1,53 @@
+/* 
+  Andie Green-Harrison
+  10125163 
+  SENG 513 Winter 2019
+  Lab B02 
+*/
+body, html {
+    height: 100%;
+}
+
+.container-fluid {
+	width: 600px;
+	height: 750px;
+	background-color: pink;
+}
+
+.btn {
+	font-size: 30px;
+	width: 100px;
+	height: 100px;
+	margin: 3px;
+	background-color: grey;
+	border: solid white;
+	border-radius: 4px;
+}
+
+.col-lg-12 {
+	align-self: center;
+	align-content: center;
+}
+
+#wide {
+	width: 209px;
+}
+.screen {
+	background-color: white;
+	height: 90px;
+	margin-left: 70px;
+	margin-right: 70px;
+	text-align: right;
+	line-height: 90px;
+	padding-right: 15px;
+}
+
+.result {
+	height: 70px;
+	margin-left: 70px;
+	margin-right: 70px;
+	text-align: right;
+	line-height: 90px;
+}
+.row {
+}
