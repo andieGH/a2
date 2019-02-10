@@ -36,19 +36,30 @@ button {
   height: 650px;
   background-color: grey;
   border-radius: 10px;
-  padding: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 25px;
+  padding-top: 15px;
   margin: auto;
 }
 .screen {
-	height: 80px;
+	height: 70px;
 	width: 400px;
 	border-radius: 10px;
 	padding: 10px;
-	margin: 10px 2px;
-	font-size: 16px;
+	margin: 10px;
+	font-size: 20px;
 	font-weight: bold;
-	background: white;
-         
+	background: white;    
+}
+
+#answer {
+	margin: auto;
+	padding: 0px;
+	width: 400px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
 }
 small {
   color: #fff;
