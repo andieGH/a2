@@ -52,7 +52,10 @@ body, html {
 .row {
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+@media screen and (max-width: 650px) {
+	.container-fluid {
+		display: flex;
+		max-width: 100%;
+	}
 }
+
