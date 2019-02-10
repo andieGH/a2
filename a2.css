@@ -51,3 +51,8 @@ body, html {
 }
 .row {
 }
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
