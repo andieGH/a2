@@ -5,11 +5,9 @@
   Lab B02 
 */
 body {
+	min-width: 300px;
 }
-input{
-	border: none;
-	background-color: white;
-}
+
 button {
 	height: 90px;
 	width: 90px;
@@ -23,25 +21,20 @@ button {
 	font-family: "Open Sans", sans-serif;
 }
 
-*:focus {
-    outline: 0 !important;
-}
-
 #clear {
 	width: 190px;
 }
 
 
 .calcBG {
-  width: 600px;
+  max-width: 600px;
   height: 650px;
+  margin: auto;
   background-color: grey;
   border-radius: 10px;
-  padding-left: 35px;
-  padding-right: 35px;
   padding-bottom: 25px;
   padding-top: 15px;
-  margin: auto;
+  
 }
 #screenText {
 	height: 70px;
@@ -60,21 +53,22 @@ button {
 	line-height: 55px; 
 }
 
+#row {
+	max-width: 600px;
+}
+
 #answer {
 	margin: auto;
 	padding: 0px;
-	height: 20px;
+	height: 25px;
 	width: 400px;
 	font-size: 20px;
 	font-weight: bold;
 	text-align: right;
 }
-small {
-  color: #fff;
-  font-weight: bold;
-}
 
-@media screen and (max-width: 675px) {
+
+@media screen and (max-width: 600px) {
 	button {
 		height: 70px;
 		width: 20%;
@@ -89,7 +83,6 @@ small {
 	}
 	.calcBG {
 		width: 100%;
-		padding: 10px;
 	}
 	#screenText {
 		width: 90%;
