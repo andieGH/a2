@@ -20,14 +20,14 @@
   <div class="calcBG text-center">
   	<div class="row" id="answerRow">
     	<div class='col-md-12'>
-    		<p id="answer"></p>
+    		<p id="answer">  </p>
     	</div>
     </div>
-    <div class="row" id="result">
+    <div class="row" id="resultRow">
     	<div class='col-md-12'>
-			<form name="calc">
-				<input type="text" class="screen text-right" name="result" readonly>
-			</form>
+    		<div class='col-md-12'>
+    			<p id="screenText"></p>
+    		</div>
 		</div>
 	</div>
 	<div class="row">
@@ -65,7 +65,7 @@
 		<div class='col-md-12'>
 			<button id="0" type="button" class="btn btn-default" onclick="myFunction(this.id)">0</button>
 			<button id="." type="button" class="btn btn-default" onclick="myFunction(this.id)">.</button>
-			<button id="equals" type="button" class="btn btn-default" onclick="calculate()">=</button>
+			<button id="=" type="button" class="btn btn-default" onclick="myFunction(this.id)">=</button>
 			<button id="+" type="button" class="btn btn-default" onclick="myFunction(this.id)">+</button>
 		</div>
 	</div>

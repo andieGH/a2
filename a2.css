@@ -31,6 +31,7 @@ button {
 	width: 190px;
 }
 
+
 .calcBG {
   width: 600px;
   height: 650px;
@@ -42,20 +43,27 @@ button {
   padding-top: 15px;
   margin: auto;
 }
-.screen {
+#screenText {
 	height: 70px;
 	width: 400px;
 	border-radius: 10px;
 	padding: 10px;
-	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
 	font-size: 20px;
 	font-weight: bold;
-	background: white;    
+	background: white;  
+	text-align: right;
+	font-size: 20px bold;
+	line-height: 55px; 
 }
 
 #answer {
 	margin: auto;
 	padding: 0px;
+	height: 20px;
 	width: 400px;
 	font-size: 20px;
 	font-weight: bold;
@@ -83,8 +91,11 @@ small {
 		width: 100%;
 		padding: 10px;
 	}
-	.screen {
+	#screenText {
 		width: 90%;
+	}
+	#answer {
+		width: 80%;
 	}
 }
 
