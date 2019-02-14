@@ -52,6 +52,9 @@ button {
 	font-size: 20px bold;
 	line-height: 55px; 
 }
+#col-md-12 {
+	max-width: 600px;
+}
 
 #row {
 	max-width: 600px;
