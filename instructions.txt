@@ -1,0 +1,10 @@
+Andie Green-Harrison
+10125163 
+SENG 513 Winter 2019
+Lab B02 
+
+https://andiegh.github.io/a2/
+
+I tested the assignment in Google Chrome. It resizes properly for all of the pre-set phone sizes offered through google chrome. It also resizes when you manually adjust the window. 
+
+Deploy the calculator either by going to the link above, or opening the index.html file in google chrome. 
